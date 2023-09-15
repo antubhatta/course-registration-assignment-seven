@@ -23,11 +23,14 @@ function App() {
         })
       
       setTotalPrice(totalPrice+price)
-
       const totalRemaining=20-count
+
+      if(count>20 || count<0){
+       return toast('Cross the limit')
+      }
+      
       setCourseCredit(count)
       setRemaining(totalRemaining)
-      
       setSelectCourse([...selectCourse,course])
     }
     
