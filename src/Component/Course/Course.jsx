@@ -22,7 +22,7 @@ const Course = ({course,handleSelectCourse}) => {
                 </div>
             </div>
            <div className='flex justify-center mx-4 mb-4'>
-           <button onClick={()=>handleSelectCourse(course,credit,price)} className='text-[#FFF] px-36 py-2 text-lg font-semibold bg-[#2F80ED] rounded-lg border border-[#2F80ED]'>Select</button>
+           <button onClick={()=>handleSelectCourse(course,price)} className='text-[#FFF] px-36 py-2 text-lg font-semibold bg-[#2F80ED] rounded-lg border border-[#2F80ED]'>Select</button>
            </div>
         </div>
     );
