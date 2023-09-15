@@ -10,8 +10,8 @@ const Courses = () => {
         .then(data=>setCourses(data))
     },[])
     return (
-        <div>
-            <h3>Courses:{courses.length}</h3>
+        <div className="md:w-3/4 grid grid-cols-3 gap-6 mb-20">
+            
             {
                 courses.map(course=><Course key={course.id} course={course}></Course>)
             }

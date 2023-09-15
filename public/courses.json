@@ -3,7 +3,7 @@
       "id": 1,
       "image": "https://i.ibb.co/1bFFJCS/Antu-photos.webp",
       "title": "Introduction to Programming",
-      "description": "Learn the basics of programming and computer science fundamentals.",
+      "description": "Learn the fundamentals of programming with this introductory course. Suitable for beginners.",
       "price": 299,
       "credit": 3
     },
@@ -11,7 +11,7 @@
       "id": 2,
       "image": "https://i.ibb.co/1bFFJCS/Antu-photos.webp",
       "title": "Data Structures and Algorithms",
-      "description": "Explore advanced data structures and algorithmic problem-solving.",
+      "description": "Master the concepts of data structures and algorithms to solve complex problems efficiently.",
       "price": 349,
       "credit": 4
     },
@@ -19,7 +19,7 @@
       "id": 3,
       "image": "https://i.ibb.co/1bFFJCS/Antu-photos.webp",
       "title": "Database Management Systems",
-      "description": "Master the principles of database design and management.",
+      "description": "Build dynamic websites and web applications using the latest web technologies.",
       "price": 399,
       "credit": 3
     },
@@ -27,7 +27,7 @@
       "id": 4,
       "image": "https://i.ibb.co/1bFFJCS/Antu-photos.webp",
       "title": "Web Development Fundamentals",
-      "description": "Build dynamic web applications using HTML, CSS, and JavaScript.",
+      "description": "Learn how to design and manage databases and write SQL queries effectively.",
       "price": 299,
       "credit": 3
     },
@@ -35,7 +35,7 @@
       "id": 5,
       "image": "https://i.ibb.co/1bFFJCS/Antu-photos.webp",
       "title": "Operating Systems",
-      "description": "Explore the architecture and functioning of modern operating systems.",
+      "description": "Explore the basics of machine learning and its applications in various fields.",
       "price": 449,
       "credit": 4
     },
@@ -43,7 +43,7 @@
       "id": 6,
       "image": "https://i.ibb.co/1bFFJCS/Antu-photos.webp",
       "title": "Artificial Intelligence",
-      "description": "Dive into the world of AI and machine learning algorithms.",
+      "description": "Understand the principles of computer networks and how to secure them.",
       "price": 499,
       "credit": 4
     },
@@ -67,7 +67,7 @@
       "id": 9,
       "image": "https://i.ibb.co/1bFFJCS/Antu-photos.webp",
       "title": "Cybersecurity Fundamentals",
-      "description": "Protect computer systems and data from cyber threats.",
+      "description": "Become a cybersecurity expert and learn ethical hacking techniques.",
       "price": 349,
       "credit": 3
     }
