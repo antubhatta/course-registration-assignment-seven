@@ -1,7 +1,8 @@
-// import { FaDollarSign } from 'react-icons/fa';
+
 import dollar from '../../assets/images/dollar-sign 1.svg'
 import book from '../../assets/images/Frame.svg'
-const Course = ({course}) => {
+const Course = ({course,handleSelectCourse}) => {
+    
     const {image,title,description,price,credit}=course;
     return (
         <div className="bg-[#FFF] rounded-xl">
@@ -21,7 +22,7 @@ const Course = ({course}) => {
                 </div>
             </div>
            <div className='flex justify-center mx-4 mb-4'>
-           <button className='text-[#FFF] px-36 py-2 text-lg font-semibold bg-[#2F80ED] rounded-lg border border-[#2F80ED]'>Select</button>
+           <button onClick={()=>handleSelectCourse(course)} className='text-[#FFF] px-36 py-2 text-lg font-semibold bg-[#2F80ED] rounded-lg border border-[#2F80ED]'>Select</button>
            </div>
         </div>
     );
