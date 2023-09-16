@@ -9,13 +9,13 @@ function App() {
   const [selectCourse,setSelectCourse]=useState([])
   const [courseCredit,setCourseCredit]=useState(0)
   const [totalPrice,setTotalPrice]=useState(0)
-  const [remaining,setRemaining]=useState(0)
+  const [remaining,setRemaining]=useState(20)
 
   const handleSelectCourse=(course,price)=>{
     const isExits=selectCourse.find(item=>item.id===course.id)
     let count=course.credit
     if(isExits){
-      toast('This course is already booked')
+      toast('This course is already added')
     }
     else{
       selectCourse.forEach((item)=>{
@@ -26,7 +26,7 @@ function App() {
       const totalRemaining=20-count
 
       if(count>20 || count<0){
-       return toast('Cross the limit')
+       return toast('The limitation is over')
       }
       
       setCourseCredit(count)

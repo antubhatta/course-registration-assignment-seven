@@ -46,7 +46,7 @@ In the `App` component, I maintain four state variables:
 const [selectedCourse, setSelectedCourse] = useState([]);
 const [courseCredit, setCourseCredit] = useState(0);
 const [totalPrice, setTotalPrice] = useState(0);
-const [remaining, setRemaining] = useState(0);
+const [remaining, setRemaining] = useState(20);
 ```
 
 - `selectedCourse`: This state holds the selected course data, allowing me to pass it to the `Cart` component.
