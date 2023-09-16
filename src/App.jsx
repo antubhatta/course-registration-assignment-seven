@@ -38,7 +38,7 @@ function App() {
   return (
     <div className='container mx-auto'>
       <Header></Header>
-     <div className='flex justify-between gap-6'>
+     <div className='lg:flex justify-between lg:gap-6'>
      <Courses handleSelectCourse={handleSelectCourse}></Courses>
      <Carts selectCourse={selectCourse} courseCredit={courseCredit} totalPrice={totalPrice} remaining={remaining}></Carts>
      </div>

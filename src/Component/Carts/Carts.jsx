@@ -1,7 +1,7 @@
 import Cart from "../Cart/Cart";
 const Carts = ({selectCourse,courseCredit,totalPrice,remaining}) => {
     return (
-        <div className="w-1/4">
+        <div className="lg:w-1/4 mx-6 mb-4 lg:mb-0 lg:mx-0">
             <div className=" bg-[#FFF] rounded-xl pl-6 pr-6">
             <h2 className="text-lg text-[#2F80ED] pt-6 font-bold">Credit Hour Remaining: {remaining} hr</h2>
             <div className="border-b border-[#11111126] mt-4 mb-4"></div>
