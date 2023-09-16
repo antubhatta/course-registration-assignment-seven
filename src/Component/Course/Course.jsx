@@ -4,7 +4,7 @@ import book from '../../assets/images/Frame.svg'
 
 const Course = ({course,handleSelectCourse}) => {
     const {image,title,description,price,credit}=course;
-    
+
     return (
         <div className="bg-[#FFF] rounded-xl">
             <div className="p-4">
@@ -21,10 +21,12 @@ const Course = ({course,handleSelectCourse}) => {
                 <img src={book} alt="" />
                     <p className='text-[#1C1B1B99] text-base font-medium'>Credit: {credit} hr</p>
                 </div>
+
             </div>
-           <div className='flex justify-center mx-4 mb-4'>
-           <button onClick={()=>handleSelectCourse(course,price)} className='text-[#FFF] px-24 lg:px-36 py-2 text-lg font-semibold bg-[#2F80ED] rounded-lg border border-[#2F80ED]'>Select</button>
+            <div className='flex justify-center mx-4 mb-4 bg-[#2F80ED] rounded-lg'>
+           <button onClick={()=>handleSelectCourse(course,price)} className='text-[#FFF] lg:px-36 py-2 text-lg font-semibold'>Select</button>
            </div>
+           
         </div>
     );
 };
